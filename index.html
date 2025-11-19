@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Zhiyi Jin – Doctoral Researcher</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #fff;
+      color: #111;
+    }
+
+    .page {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 40px 24px 60px;
+    }
+
+    header {
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      font-size: 20px;
+      font-weight: 500;
+      margin: 0;
+    }
+
+    header h1 span {
+      font-weight: 700;
+    }
+
+    .intro {
+      display: flex;
+      gap: 60px;
+      align-items: center;
+      margin-bottom: 80px;
+    }
+
+    .photo {
+      width: 230px;
+      height: 230px;
+      border-radius: 50%;
+      border: 2px solid #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      text-transform: lowercase;
+      color: #777;
+      overflow: hidden;
+    }
+
+    .photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .intro-text h2 {
+      font-size: 28px;
+      margin: 0 0 4px;
+    }
+
+    .intro-text h3 {
+      font-size: 18px;
+      font-weight: 600;
+      margin: 0 0 20px;
+    }
+
+    .intro-text p {
+      margin: 0 0 14px;
+      line-height: 1.6;
+      max-width: 480px;
+    }
+
+    footer {
+      border-top: 1px solid #eee;
+      padding-top: 24px;
+      display: flex;
+      justify-content: space-between;
+      gap: 40px;
+      font-size: 15px;
+    }
+
+    .footer-block h4 {
+      margin: 0 0 8px;
+      font-size: 16px;
+    }
+
+    .footer-block p {
+      margin: 0 0 4px;
+    }
+
+    a {
+      color: #c00;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 720px) {
+      .intro {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .photo {
+        margin-bottom: 10px;
+      }
+      footer {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <!-- Top: name + title -->
+    <header>
+      <h1><span>Zhiyi Jin</span> – Doctoral Researcher</h1>
+    </header>
+
+    <!-- Middle: photo left, text right -->
+    <section class="intro">
+      <div class="photo">
+        <img src="/photo.jpg" alt="Photo of Your Name">
+        photo
+      </div>
+
+      <div class="intro-text">
+        <h2>Hello</h2>
+        <h3>A bit about me..</h3>
+
+        <p>
+          I'm currently a doctoral researcher on the ERC project "A network science approach 
+          to social cohesion in European societies" (<a href="https://coalesce-lab.com/en/project/1/patchwork">PATCHWORK</a>) 
+          in the COALESCE Lab at the Autonomous University of Barcelona in Spain, and a PhD candidate at ICS, Department of Sociology 
+          at the University of Groningen.
+        </p>
+        <p>
+          My research focuses on the study of social networks in regional contexts through advanced 
+          quantitative and computational methods. In particular, I study border acquaintanceship networks, 
+          typically composed of weak ties that facilitate access to information, resources, and opportunities, 
+          and thereby enable social mobility. I am especially interested in how the composition of these networks 
+          reflects and interacts with the economic and geographical conditions of a region, shaping patterns 
+          of social and economic inequality.
+        </p>
+      </div>
+    </section>
+
+    <!-- Bottom: contact + follow me -->
+    <footer>
+      <div class="footer-block">
+        <h4>Email</h4>
+        <p>z.jin@rug.nl
+        </p>
+        <p>
+          Zhiyi.Jin@uab.cat
+        </p>
+      </div>
+
+      <div class="footer-block">
+        <h4>Follow me</h4>
+        <p><a href="www.linkedin.com/in/zhiyi-jin" target="_blank">LinkedIn</a></p>
+        <p><a href="https://github.com/Zhiyi-Jin " target="_blank">Github</a></p>
+      </div>
+
+      <div class="footer-block">
+    <h4>Download</h4>
+    <p><a href="/Academic_CV.pdf" download>Academic CV (PDF)</a></p>
+  </div>
+    </footer>
+
+  </div>
+</body>
+</html>
